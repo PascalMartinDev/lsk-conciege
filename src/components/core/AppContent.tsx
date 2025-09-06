@@ -1,9 +1,15 @@
+import HeaderSection from '../core/HeaderSection';
+import CustomerDetailsSection from '../customer/CustomerDetailsSection';
+import Footer from './Footer';
+
 const AppContent = () => {
   return (
-  <div className="flex flex-col items-center justify-center min-h-screen">
-    <h1 className="text-center">Lightspeed Conciege</h1>
-    <h4 className="text-center">Started project</h4>
-  </div>)
-}
+    <>
+      <HeaderSection />
+      <CustomerDetailsSection />
+      <Footer />
+    </>
+  );
+};
 
 export default AppContent;

@@ -1,4 +1,4 @@
-# LSK Concierge - Work in Progress 🚧
+# Lightspeed Concierge - Work in Progress 🚧
 
 This is a work in progress project creating a **Concierge extension application** for Lightspeed's flagship K-Series restaurant POS system. Our mission is to empower business owners, managers, and staff to get the most out of their POS system by providing real-time insights into their customers to deliver premium customer service.
 
