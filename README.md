@@ -1,69 +1,26 @@
-# React + TypeScript + Vite
+# LSK Concierge - Work in Progress 🚧
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a work in progress project creating a **Concierge extension application** for Lightspeed's flagship K-Series restaurant POS system. Our mission is to empower business owners, managers, and staff to get the most out of their POS system by providing real-time insights into their customers to deliver premium customer service.
 
-Currently, two official plugins are available:
+## Vision
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The LSK Concierge application drives high-speed connectivity to customer information, backed by intelligent AI agents trained to serve businesses, drive more sales, and achieve higher profit margins. By leveraging advanced analytics and AI-powered recommendations, we're transforming how restaurants understand and serve their customers.
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project is built with:
+- **Frontend**: React + TypeScript
+- **Backend**: AWS Serverless Infrastructure
+  - AWS Amplify
+  - API Gateway
+  - DynamoDB
+  - Aurora
+  - Lambda
+  - Step Functions
+  - And more...
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Note**: This repository focuses on the **frontend application**.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Development Status
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🔥 **Watch as this application grows daily!** We'll update this README with full project details once completed. Stay tuned!!
