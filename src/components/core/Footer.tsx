@@ -4,8 +4,8 @@ const Footer = () => {
       <div className="container mx-auto text-left">
         <div className="text-center">
           <p className="text-center py-4 text-white">
-            Developed by Pascal Martin<span className="mx-3">|</span>For support
-            email: connect@pascalmartin.dev
+            Developed by Konnectit.io<span className="mx-3">|</span>For support
+            email: dev@konnectit.io
           </p>
         </div>
       </div>

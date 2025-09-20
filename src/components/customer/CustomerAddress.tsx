@@ -5,11 +5,11 @@ const CustomerAddress: React.FC = () => {
   // use the customer hook to get reactive AppCustomer data
   //const appCustomer = useAppCustomer();
 
-  const street = ''; // appCustomer?.address.address1;
-  const street2 = ''; //appCustomer?.address.address2;
-  const city = ''; //appCustomer?.address.city;
-  const state = ''; //appCustomer?.address.state;
-  const postcode = ''; //appCustomer?.address.postcode;
+  const street = 'Unit 2'; // appCustomer?.address.address1;
+  const street2 = '54 High End Road'; //appCustomer?.address.address2;
+  const city = 'Ascot'; //appCustomer?.address.city;
+  const state = 'Queensland'; //appCustomer?.address.state;
+  const postcode = '4012'; //appCustomer?.address.postcode;
 
   return (
     <div>

@@ -1,9 +1,9 @@
-//import HeaderSection from '../core/HeaderSection';
-//import CustomerDetailsSection from '../customer/CustomerDetailsSection';
-//import CustomerManagementSection from '../interactions/CustomerManagementSection';
-//import Footer from './Footer';
+import HeaderSection from '../core/HeaderSection';
+import CustomerDetailsSection from '../customer/CustomerDetailsSection';
+import CustomerManagementSection from '../interactions/CustomerManagementSection';
+import Footer from './Footer';
 
-/*
+
 const AppContent = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const AppContent = () => {
 };
 
 export default AppContent;
-*/
+/*
 
 import { TestSearchProvider } from "../interactions/testsearch/TestSearchContext";
 import { TestSearchInput } from "../interactions/testsearch/TestSearchInput";
@@ -33,3 +33,4 @@ export default function App() {
     </TestSearchProvider>
   );
 }
+*/

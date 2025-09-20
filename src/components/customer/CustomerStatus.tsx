@@ -5,9 +5,9 @@ const CustomerStatus: React.FC = () => {
   // Use the customer hook to get reactive data
   //const appCustomer = useAppCustomer();
 
-  const group = ''; // appCustomer?.group;
-  const isVip = ''; //appCustomer?.isVip;
-  const dateJoined = '' // appCustomer?.dateJoined;
+  const group = 'Wine Club Platinum'; // appCustomer?.group;
+  const isVip = 'No'; //appCustomer?.isVip;
+  const dateJoined = '26 January 2024' // appCustomer?.dateJoined;
 
 
   return (

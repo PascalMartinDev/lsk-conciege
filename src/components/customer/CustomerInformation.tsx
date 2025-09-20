@@ -1,25 +1,38 @@
 import React from 'react';
+import profilePlaceholder from '../../assets/Conciera_Profile_Placeholder.png';
 //import { useAppCustomer } from '../../workflow/hooks/useAppCustomer';
 
 const CustomerInformation: React.FC = () => {
   // Use the custom hook to get active AppCustomer data
   //const appCustomer = useAppCustomer();
 
-  const firstName = '';  //appCustomer?.customer?.firstName || 'No Name';
-  const lastName = ''; //appCustomer?.customer?.lastName || '';
-  const phone = ''; //appCustomer?.customer?.phone || 'No Phone';
-  const email = ''; //appCustomer?.customer?.email || 'No Email';
+  const firstName = 'John';  //appCustomer?.customer?.firstName || 'No Name';
+  const lastName = 'Smith'; //appCustomer?.customer?.lastName || '';
+  const phone = '0400400400'; //appCustomer?.customer?.phone || 'No Phone';
+  const email = 'jsmith@mymailbox.com'; //appCustomer?.customer?.email || 'No Email';
 
   return (
-    <div>
-      <h3 className="text-lg font-semibold text-gray-900">
-        Customer Information:
-      </h3>
-      <h4 className="text-sm/6 text-gray-500">
-        Name: {firstName} {lastName}
-      </h4>
-      <h4 className="text-sm/6 text-gray-500">Phone: {phone}</h4>
-      <h4 className="text-sm/6 text-gray-500">Email: {email}</h4>
+    <div className="flex items-start space-x-4">
+      {/* Circular Profile Image */}
+      <div className="flex-shrink-0">
+        <img
+          src={profilePlaceholder}
+          alt="Customer Profile"
+          className="w-16 h-16 rounded-full object-cover border-2 border-gray-300"
+        />
+      </div>
+
+      {/* Customer Information */}
+      <div className="flex-1">
+        <h3 className="text-lg font-semibold text-gray-900">
+          Customer Information:
+        </h3>
+        <h4 className="text-sm/6 text-gray-500">
+          Name: {firstName} {lastName}
+        </h4>
+        <h4 className="text-sm/6 text-gray-500">Phone: {phone}</h4>
+        <h4 className="text-sm/6 text-gray-500">Email: {email}</h4>
+      </div>
     </div>
   );
 };
