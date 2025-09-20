@@ -1,7 +1,8 @@
 import HeaderSection from '../core/HeaderSection';
 import CustomerDetailsSection from '../customer/CustomerDetailsSection';
-import CustomerManagementSection from '../interactions/CustomerManagementSection';
+//import CustomerManagementSection from '../interactions/CustomerManagementSection';
 import Footer from './Footer';
+import FooterMenu from './FooterMenu';
 
 
 const AppContent = () => {
@@ -10,7 +11,8 @@ const AppContent = () => {
       <HeaderSection />
       <CustomerDetailsSection />
 
-      <CustomerManagementSection />
+      {/*<CustomerManagementSection />*/}
+      < FooterMenu />
       <Footer />
     </>
   );

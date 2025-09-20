@@ -8,6 +8,7 @@ const CustomerStatus: React.FC = () => {
   const group = 'Wine Club Platinum'; // appCustomer?.group;
   const isVip = 'No'; //appCustomer?.isVip;
   const dateJoined = '26 January 2024' // appCustomer?.dateJoined;
+  const loyaltyPoints = 512;
 
 
   return (
@@ -17,7 +18,9 @@ const CustomerStatus: React.FC = () => {
       </h3>
       <h4 className="text-sm/6  text-gray-500">Group: {group}</h4>
       <h4 className="text-sm/6  text-gray-500">VIP: {isVip}</h4>
-      <h4 className="text-sm/6  text-gray-500">MEMBER SINCE: {dateJoined}</h4>
+      <h4 className="text-sm/6  text-gray-500">Loyalty Points: {loyaltyPoints}</h4>
+      <h4 className="text-sm/6  text-gray-500">Member Since: {dateJoined}</h4>
+      
     </div>
   );
 };

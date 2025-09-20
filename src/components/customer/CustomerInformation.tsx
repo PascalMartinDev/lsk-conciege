@@ -18,7 +18,7 @@ const CustomerInformation: React.FC = () => {
         <img
           src={profilePlaceholder}
           alt="Customer Profile"
-          className="w-16 h-16 rounded-full object-cover border-2 border-gray-300"
+          className="w-24 h-24 rounded-full object-cover border-2 border-gray-300"
         />
       </div>
 

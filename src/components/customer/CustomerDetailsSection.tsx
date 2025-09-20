@@ -2,6 +2,8 @@ import CustomerInformation from './CustomerInformation';
 import CustomerAddress from './CustomerAddress';
 import CustomerStatus from './CustomerStatus';
 import CustomerCustomFields from './CustomerCustomFields'
+import CustomerPurchaseHistory from './CustomerPurchaseHistory';
+import CustomerSubscriptionDetails from './CustomerSubscriptionDetails';
 
 
 // Grid item wrapper
@@ -18,7 +20,8 @@ const CustomerDetailsSection: React.FC = () => {
     { component: CustomerInformation, key: 'customer-info' },
     { component: CustomerStatus, key: 'customer-status' },
     { component: CustomerAddress, key: 'customer-address' },
-    { component: CustomerCustomFields, key: 'customer-Fields' }
+    //{ component: CustomerCustomFields, key: 'customer-Fields' },
+    { component: CustomerSubscriptionDetails, key: 'customer-subscription' }
 
   ];
 
@@ -31,6 +34,7 @@ const CustomerDetailsSection: React.FC = () => {
           </GridCard>
         ))}
       </div>
+      <CustomerPurchaseHistory />
     </section>
   );
 };
